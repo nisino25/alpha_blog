@@ -1,5 +1,8 @@
+<h1 class="text-center mt-4" m><%= @user.username  %></h1>
+<div class="text-center mt-4">
+        <%=  "(Admin)" if @user.admin?  %>
+</div>
 
-<h1 class="text-center mt-4" m><%= @user.username %></h1>
 
 <%= gravatar_for @user, size: 200 %>
 
