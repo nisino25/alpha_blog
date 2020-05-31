@@ -30,6 +30,13 @@
     height: 425px;
 }
 
+.badge{
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold ;
+}
+
 html,
 body {
     height: 100%;
@@ -43,6 +50,9 @@ body {
 #sticky-footer {
     flex-shrink: none;
 }
+
+
+
 
 /* pagination styling */
 .flickr_pagination {
